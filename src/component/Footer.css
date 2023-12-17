@@ -1,0 +1,134 @@
+.footer-container {
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    color: #13072E;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: auto;
+}
+
+/* Footer Styles */
+.footer {
+    max-width: 1366px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    flex-wrap: wrap;
+}
+
+.footer .container .column {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Updated styling for column one */
+.footer .container .subscribe-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.footer .container .subscribe-column .logo {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer .container .subscription-form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.footer .container .email-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.footer .container .submit-button {
+    border: none;
+    background-color: #13072E;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: -50px;
+}
+
+.footer .container .submit-button::after {
+    content: '\2192';
+    margin-left: 5px;
+}
+
+.footer .container .column-two {
+    display: flex;
+    flex-direction: column;
+    color: #13072E;
+}
+
+.footer .container .column-two .links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .container .column-two .links-container .links-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.footer .container .column-two .links-container .links-column a {
+    margin-top: 8px;
+    color: #13072E;
+    text-decoration: none;
+}
+
+.footer .container hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    color: #13072E;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .container .column {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer .container .column + .column {
+        margin-top: 20px;
+    }
+
+    .footer .container .subscribe-column {
+        padding-bottom: 50px;
+    }
+
+    .navigation {
+        display: none;
+    }
+}

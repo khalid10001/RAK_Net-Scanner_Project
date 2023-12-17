@@ -1,0 +1,41 @@
+.root {
+    font-family: 'arial', serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../img/background404.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.notFoundContainer {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.errorHeading {
+    color: #ffffff;
+    font-size: 15em;
+    margin: 0;
+    padding: 0;
+}
+
+.errorMessage {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+}
+
+.backToHome {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}

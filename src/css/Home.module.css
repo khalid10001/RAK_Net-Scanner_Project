@@ -1,0 +1,145 @@
+.videoContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgroundVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -1;
+}
+
+.homeContainer {
+    display: flex;
+    max-width: 85rem;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.emptyBox {
+    flex: 1 0 50%;
+}
+
+.textBox {
+    flex: 1 0 40%;
+    padding-right: 1.25rem;
+    color: white;
+}
+
+.textBox h1 {
+    font-size: 3.125rem;
+    line-height: 1;
+}
+
+.textBox p {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.rakHighlight {
+    color: #0886D6;
+}
+
+.bulletPoints ul {
+    font-size: 1.0625rem;
+    margin-left: 1.25rem;
+}
+
+.buttonContainer {
+    margin-top: 1.25rem;
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.625rem 2.8125rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.0625rem;
+    text-decoration: none;
+}
+
+.buttonOne {
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    color: white;
+    margin-right: 3.75rem;
+}
+
+.buttonTwo {
+    background: none;
+    border: 0.125rem solid white;
+    color: white;
+    margin-left: 0.625rem;
+}
+
+@media screen and (min-width: 85rem) {
+    .textBox h1 {
+        font-size: 4.375rem;
+    }
+
+    .textBox p {
+        font-size: 1.5625rem;
+    }
+
+    .bulletPoints ul {
+        font-size: 1.25rem;
+    }
+
+    .buttonContainer .button {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .backgroundVideo {
+        display: none;
+    }
+    .emptyBox {
+        display: none;
+    }
+
+    .homeContainer {
+        flex-direction: column;
+    }
+
+    .textBox {
+        order: -1;
+        padding: 1.25rem;
+    }
+
+    .textBox h1,
+    .textBox p {
+        margin-top: 0;
+    }
+
+    .textBox h1 {
+        font-size: 2.5rem;
+    }
+
+    .textBox p {
+        font-size: 1.2rem;
+    }
+
+    .textBox .bulletPoints ul {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .textBox .buttonContainer .button {
+        margin-top: 2rem;
+        padding: 0.7rem 1.5rem;
+        font-size: 0.8125rem;
+    }
+
+    .textBox .buttonContainer .buttonOne {
+        margin-right: 7rem;
+    }
+
+    .textBox .buttonContainer .buttonTwo {
+        margin-left: 0.25rem;
+    }
+}
