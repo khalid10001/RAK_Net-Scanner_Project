@@ -1,0 +1,80 @@
+#about-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.left-side {
+  flex: 1;
+}
+.left-side h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em; /* Adjust the font size as needed */
+  margin-bottom: 50px; /* Add some spacing below the heading */
+}
+
+.left-side img {
+  width: 100%; /* Make the image responsive and fit the container */
+  border-radius: 8px; /* Add border-radius if you want rounded corners */
+}
+.right-side {
+  flex: 1;
+  padding: 20px;
+  color: #ffffff;
+}
+
+
+.right-side ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-side li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.right-side li::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #ffffff;
+  left: -10px;
+  top: 0;
+}
+
+.right-side h3 {
+  margin-top: 20px;
+}
+
+.right-side p {
+  margin-top: 10px;
+}
+
+.right-side .tick {
+  list-style: none;
+  padding: 0;
+}
+
+.right-side .tick li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.right-side .tick li::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #ffffff;
+  left: -15px; /* Adjust the distance of the tick line from the text */
+  top: 5px; /* Adjust the vertical position of the tick line */
+  transform: rotate(45deg);
+}
+
+.right-side .tick span {
+  display: none; /* Hide the default list item marker */
+}
+
