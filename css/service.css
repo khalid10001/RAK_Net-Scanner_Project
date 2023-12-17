@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+
+}
+
+.main .column {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.column2 img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  /* Center the image */
+  margin: 0 auto 15px;
+}
+
+
