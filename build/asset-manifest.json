@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/RAK_Net-Scanner_Project/static/css/main.93082feb.css",
+    "main.js": "/RAK_Net-Scanner_Project/static/js/main.eff3ced0.js",
+    "static/js/787.dd13f5d4.chunk.js": "/RAK_Net-Scanner_Project/static/js/787.dd13f5d4.chunk.js",
+    "static/media/background.mp4": "/RAK_Net-Scanner_Project/static/media/background.286eb6e42a50cdbb30a0.mp4",
+    "static/media/products2.png": "/RAK_Net-Scanner_Project/static/media/products2.99eeb1fcd6936861f68c.png",
+    "static/media/aboutUs.png": "/RAK_Net-Scanner_Project/static/media/aboutUs.b4060ff19be1faf08456.png",
+    "static/media/background404.png": "/RAK_Net-Scanner_Project/static/media/background404.5aea09a2c315d0608659.png",
+    "static/media/services.png": "/RAK_Net-Scanner_Project/static/media/services.a28a5260541c22235ed8.png",
+    "static/media/logoHeader.png": "/RAK_Net-Scanner_Project/static/media/logoHeader.71634d7b44fa04311882.png",
+    "static/media/products3.png": "/RAK_Net-Scanner_Project/static/media/products3.e5f078dde5541305e030.png",
+    "static/media/background.png": "/RAK_Net-Scanner_Project/static/media/background.7be2f92537a305b6ab87.png",
+    "static/media/products1.png": "/RAK_Net-Scanner_Project/static/media/products1.948369b109a3409d0b16.png",
+    "static/media/products-background.png": "/RAK_Net-Scanner_Project/static/media/products-background.c6f290a89c347d1acac5.png",
+    "static/media/neural-network.png": "/RAK_Net-Scanner_Project/static/media/neural-network.0f95de6c357c662fe41f.png",
+    "index.html": "/RAK_Net-Scanner_Project/index.html",
+    "main.93082feb.css.map": "/RAK_Net-Scanner_Project/static/css/main.93082feb.css.map",
+    "main.eff3ced0.js.map": "/RAK_Net-Scanner_Project/static/js/main.eff3ced0.js.map",
+    "787.dd13f5d4.chunk.js.map": "/RAK_Net-Scanner_Project/static/js/787.dd13f5d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93082feb.css",
+    "static/js/main.eff3ced0.js"
+  ]
+}
