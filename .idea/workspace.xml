@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a43645ca-a991-43fa-adb7-21a251836045" name="Changes" comment="updated README.md">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Abdoul-Hakim101 &lt;85031017+abdoul-hakim101@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f0696122-febf-46d4-a239-c5b3800c080d" />
+        <option name="url" value="https://github.com/Abdoul-Hakim101/RAK_Net-Scanner_Project.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Yg4tOhUWOd6XBcImk28nReIMIp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/abdihakin/WebstormProjects/RAK_Net-Scanner_Project",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.eject.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdihakin\WebstormProjects\Project\img" />
+      <recent name="C:\Users\abdihakin\WebstormProjects\Project\videos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abdihakin\WebstormProjects\Project" />
+      <recent name="C:\Users\abdihakin\WebstormProjects\Project\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.eject">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.eject" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43645ca-a991-43fa-adb7-21a251836045" name="Changes" comment="" />
+      <created>1700934104260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700934104260</updated>
+      <workItem from="1700934106195" duration="3029000" />
+      <workItem from="1700988766295" duration="23349000" />
+      <workItem from="1701072707272" duration="2305000" />
+      <workItem from="1701075991943" duration="103000" />
+      <workItem from="1701076123844" duration="11583000" />
+      <workItem from="1702457339035" duration="30000" />
+      <workItem from="1702497509685" duration="329000" />
+      <workItem from="1702497906184" duration="23000" />
+      <workItem from="1702555694491" duration="19327000" />
+      <workItem from="1702575599465" duration="9538000" />
+      <workItem from="1702621919051" duration="597000" />
+      <workItem from="1702628989543" duration="6370000" />
+      <workItem from="1702663240367" duration="10921000" />
+      <workItem from="1702716122783" duration="13133000" />
+      <workItem from="1702742522922" duration="5654000" />
+      <workItem from="1702797654668" duration="7322000" />
+      <workItem from="1702805772608" duration="1730000" />
+      <workItem from="1702807513410" duration="1455000" />
+      <workItem from="1703185360430" duration="512000" />
+      <workItem from="1704012385698" duration="13112000" />
+      <workItem from="1704107440152" duration="309000" />
+      <workItem from="1704108415710" duration="11708000" />
+      <workItem from="1704183462787" duration="7571000" />
+      <workItem from="1704230514884" duration="2513000" />
+      <workItem from="1704267239712" duration="1296000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding files: Complete HTML and CSS code for all the RAK pages except the two scanning pages.">
+      <option name="closed" value="true" />
+      <created>1702806795291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702806795291</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding files: Complete HTML and CSS code for all the RAK pages except the two scanning pages.">
+      <option name="closed" value="true" />
+      <created>1702806839806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702806839807</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Resolves conflict and ensures conde consistency">
+      <option name="closed" value="true" />
+      <created>1704231354077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704231354077</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated README.md">
+      <option name="closed" value="true" />
+      <created>1704231963498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704231963498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding files: Complete HTML and CSS code for all the RAK pages except the two scanning pages." />
+    <MESSAGE value="Delete CNAME" />
+    <MESSAGE value="Resolves conflict and ensures conde consistency" />
+    <MESSAGE value="updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
+  </component>
+</project>

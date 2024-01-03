@@ -1,0 +1,84 @@
+
+.Product-Container .main-container {
+    margin: 1.25rem auto;
+    padding: 0 1.25rem;
+    color: #fff;
+    max-width: 85rem;
+}
+
+.Product-Container .main-container .title {
+    font-size: 2.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.Product-Container .main-container .paragraph {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.main-container .box {
+    width: 100%;
+    display: flex;
+    min-height: 25rem;
+    border-radius: 3.125rem;
+    margin-bottom: 1.875rem;
+    overflow: hidden;
+    background: url('../img/products1.png') no-repeat center/cover;
+}
+
+.main-container .box2 {
+    background: url('../img/products2.png') center/cover;
+}
+
+.main-container .box3 {
+    background: url('../img/products3.png') center/cover;
+}
+
+.box-left,
+.box-right {
+    flex: 1;
+    padding: 3.75rem;
+}
+
+.box-title {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 0.625rem;
+}
+
+.bullet-points {
+    padding: 0;
+    margin: 0;
+}
+
+.bullet-points li {
+    font-size: 1rem;
+    margin-bottom: 0.3125rem;
+}
+
+.network-scanner-tag {
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    margin-top: 0.625rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container .box {
+        background: url('../img/products-background.png') center/cover;
+    }
+
+    .main-container .box1 .box-left {
+        display: none;
+    }
+    .main-container .box2 .box-right {
+        display: none;
+    }
+    .main-container .box3 .box-left {
+        display: none;
+    }
+}
+

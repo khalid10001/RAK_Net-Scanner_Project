@@ -1,0 +1,124 @@
+.scanner-section {
+    max-width: 85rem;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.scanner-section .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.scanner-section .box .title {
+    font-size: 1.5rem; /* 24px in rem */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* 15px in rem */
+}
+
+.scanner-section .box .form-box,
+.scanner-section .box .second-box {
+    padding: 1.25rem; /* 20px in rem */
+    margin: 0 0.625rem; /* 10px in rem */
+    width: 47%;
+    box-sizing: border-box;
+
+}
+
+.scanner-section .box .form-box {
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    border-radius: 1rem; /* 10px in rem */
+}
+
+.scanner-section .box .form-box .form-title {
+    font-size: 1.125rem; /* 18px in rem */
+    font-weight: bold;
+    margin-bottom: 1rem; /* 10px in rem */
+}
+
+.scanner-section .box .form-box .text-input,
+.scanner-section .box .form-box .port-selection {
+    width: 100%;
+    padding: 0.5rem; /* 8px in rem */
+    margin-bottom: 1rem; /* 10px in rem */
+    box-sizing: border-box;
+}
+
+.scanner-section .box .form-box .submit-button-form {
+    background: black;
+    color: white;
+    padding: 0.5rem 2.8125rem; /* 8px 45px in rem */
+    border: none;
+    border-radius: 0.3125rem; /* 5px in rem */
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto; /* 10px in rem */
+}
+
+.scanner-section .box .second-box .bullet-points {
+    padding: 0;
+}
+
+.scanner-section .box .second-box .bullet-points .bullet-item {
+    margin-bottom: 0.3125rem; /* 5px in rem */
+}
+
+
+
+@media screen and (min-width: 1366px) {
+        .scanner-section {
+            padding-bottom: 100px;
+        }
+    .scanner-section .box .title {
+        font-size: 2rem; /* Adjusted font size for bigger screens */
+        margin-bottom: 2rem; /* Adjusted margin for bigger screens */
+    }
+
+    .scanner-section .box .form-box .form-title {
+        font-size: 1.5rem; /* Adjusted font size for bigger screens */
+        margin-bottom: 1rem; /* Adjusted margin for bigger screens */
+    }
+
+    .scanner-section .box .form-box .text-input,
+    .scanner-section .box .form-box .port-selection {
+        padding: 1rem; /* Adjusted padding for bigger screens */
+        margin-bottom: 1rem; /* Adjusted margin for bigger screens */
+    }
+
+    .scanner-section .box .form-box .submit-button-form {
+        padding: 0.5rem 3rem; /* Adjusted padding for bigger screens */
+        margin: 1rem auto; /* Adjusted margin for bigger screens */
+    }
+
+    .scanner-section .box .second-box .bullet-points .bullet-item {
+        margin-bottom: 0.5rem; /* Adjusted margin for bigger screens */
+        font-size: 1.2rem;
+    }
+
+    .scanner-section .box .form-box,
+    .scanner-section .box .second-box {
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .scanner-section {
+        flex-direction: column;
+
+    }
+    .scanner-section .box .form-box,
+    .scanner-section .box .second-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .scanner-section .box .second-box {
+        order: -1; /* Set order to -1 to move it to the top */
+    }
+}
