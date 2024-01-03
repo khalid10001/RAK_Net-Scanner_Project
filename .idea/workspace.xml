@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43645ca-a991-43fa-adb7-21a251836045" name="Changes" comment="updated README.md">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +104,7 @@
       <recent name="C:\Users\abdihakin\WebstormProjects\Project\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.eject">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -137,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.eject" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1704108415710" duration="11708000" />
       <workItem from="1704183462787" duration="7571000" />
       <workItem from="1704230514884" duration="2513000" />
-      <workItem from="1704267239712" duration="1296000" />
+      <workItem from="1704267239712" duration="3520000" />
     </task>
     <task id="LOCAL-00001" summary="Adding files: Complete HTML and CSS code for all the RAK pages except the two scanning pages.">
       <option name="closed" value="true" />
