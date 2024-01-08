@@ -1,10 +1,17 @@
 import Layout from "../component/Layout";
 import styles from '../css/Scaninformaion.module.css';
 import Navbar from "../component/Navbar";
+// import { useHistory } from "react-router-dom";
 import {useEffect, useState} from "react";
+import {useLocation} from 'react-router-dom';
 
 const ScanInformation = () => {
   const [isPending, setPending] = useState(true);
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const target = searchParams.get('target');
+  const port = searchParams.get('port');
+
   useEffect(() => {
     setTimeout(() =>
         setPending(false)
@@ -38,9 +45,13 @@ const ScanInformation = () => {
         <div className={styles.column}>
           <p className={styles.subTitle}><br/></p>
           <label htmlFor="low">Low<br/></label>
-          <input type="range" id="low" className={styles.rangeSlider} min="0" max="100" value="50"/>
+          <input type="range" id="low" className={styles.rangeSlider} min="0" max="100" value="30"/>
           <label htmlFor="info">Info<br/></label>
-          <input type="range" id="info" className={styles.rangeSlider} min="0" max="100" value="50"/>
+          <input type="range" id="info" className={styles.rangeSlider} min="0" max="100" value="70"
+                 onChange={() => {
+                    // Generate a random value between 0 and 100
+                   document.getElementById('info').value = Math.floor(Math.random() * 101); // Set the random value for the input
+                 }}/>
         </div>
 
         <div className={`${styles.column} ${styles.center}`}>
@@ -51,7 +62,7 @@ const ScanInformation = () => {
         </div>
 
         <div className={styles.column}>
-          <p className={styles.subTitle}>Tests performed</p>
+          <p className={`${styles.subTitle} ${styles.center}`}>Tests performed</p>
           <p className={styles.center}>1/1</p>
         </div>
 
@@ -73,7 +84,7 @@ const ScanInformation = () => {
           <p className={styles.infoText}>SCAN PARAMETERS</p>
           <hr className={styles.infoHr}/>
           <p className={styles.infoText}>Target<br/>
-            178.233.140.11</p>
+            {target}</p>
           <hr className={styles.infoHr}/>
           <p className={styles.infoText}>Scan type<br/>
             Light</p>
@@ -91,7 +102,7 @@ const ScanInformation = () => {
           <div className={styles.container}>
             <h2 className={styles.center}>Scan</h2>
             <div className={styles.customBox}>
-              <p className={styles.center}>178.233.140.11</p>
+              <p className={styles.center}>{target}</p>
             </div>
           </div>
           {/*box 2*/}
