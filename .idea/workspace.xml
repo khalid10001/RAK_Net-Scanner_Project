@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43645ca-a991-43fa-adb7-21a251836045" name="Changes" comment="updated README.md">
-      <change afterPath="$PROJECT_DIR$/src/css/Scaninformaion.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ScanInformation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Scanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Scanner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +179,7 @@
       <workItem from="1704267239712" duration="5224000" />
       <workItem from="1704562697051" duration="16315000" />
       <workItem from="1704618707890" duration="13584000" />
+      <workItem from="1704744148414" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="Adding files: Complete HTML and CSS code for all the RAK pages except the two scanning pages.">
       <option name="closed" value="true" />
