@@ -1,7 +1,6 @@
 import Layout from "../component/Layout";
 import styles from '../css/Scaninformaion.module.css';
 import Navbar from "../component/Navbar";
-// import { useHistory } from "react-router-dom";
 import {useEffect, useState} from "react";
 import {useLocation} from 'react-router-dom';
 
