@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const Scanner = () => {
   const [target, setTarget] = useState("");
   const [port, setPort] = useState("10");
+  const [error, setError] = useState("");
   const navigate = useNavigate();
   function handleChange(e) {
     e.preventDefault();
@@ -16,10 +17,19 @@ const Scanner = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(target)
-    console.log(port)
+
+    const targetRegex = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$|^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.?)+((?!-)[A-Za-z0-9-]{1,63}(?<!-))$/;
+
+    if (!targetRegex.test(target)) {
+      setError("Invalid target format. Please enter a valid IP address or hostname.")
+      return;
+    }
+
+    console.log(target);
+    console.log(port);
     navigate(`/result?target=${target}&port=${port}`);
   }
+
 
   return (
     <Layout title="Network Vulnerability Scanner">
@@ -41,6 +51,7 @@ const Scanner = () => {
                   <option value="1000">Top 1000 ports</option>
                 </select>
                 <button type="submit" className="submit-button-form">Start scan</button>
+                <p>{error}</p>
               </form>
             </div>
 
