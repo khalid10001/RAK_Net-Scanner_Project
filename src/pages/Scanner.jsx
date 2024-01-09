@@ -3,30 +3,69 @@ import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import Layout from "../component/Layout";
 import {useState} from "react";
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 const Scanner = () => {
   const [target, setTarget] = useState("");
   const [port, setPort] = useState("10");
   const [error, setError] = useState("");
   const navigate = useNavigate();
+
   function handleChange(e) {
     e.preventDefault();
     setTarget(e.target.value)
   }
 
+  function isValidIP(ip) {
+
+    if (!ip) {
+      return false;
+    }
+
+    const parts = ip.split('.');
+
+    if (parts.length !== 4) {
+      return false;
+    }
+
+    const isValidPart = (part) => {
+      if (!part || typeof part !== 'string') {
+        return false;
+      }
+
+      if (part.length > 1 && part[0] === '0') {
+        return false;
+      }
+
+      const num = parseInt(part, 10);
+
+      // Check if the parsed number is in the range 0-255
+      return !isNaN(num) && num >= 0 && num <= 255;
+    };
+
+    // Check each part of the IP address
+    for (const part of parts) {
+      if (!isValidPart(part)) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
 
-    const targetRegex = /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$|^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.?)+((?!-)[A-Za-z0-9-]{1,63}(?<!-))$/;
+    const hostnameRegex = /^(?!:\/\/)([a-zA-Z0-9-]{1,63}\.?)+(?=\S*$)[a-zA-Z]{2,6}$/;
 
-    if (!targetRegex.test(target)) {
-      setError("Invalid target format. Please enter a valid IP address or hostname.")
+    if (isValidIP(target) || hostnameRegex.test(target)) {
+
+    } else {
+      setError("Invalid target format. Please enter a valid IP address or hostname.");
       return;
     }
 
-    console.log(target);
-    console.log(port);
+    console.log("Selected port:", port);
     navigate(`/result?target=${target}&port=${port}`);
   }
 
