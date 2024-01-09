@@ -10,8 +10,11 @@ const ScanInformation = () => {
   const searchParams = new URLSearchParams(location.search);
   const target = searchParams.get('target');
   const port = searchParams.get('port');
-
+  if (!target || !port){
+    window.location.href = '/404'
+  }
   useEffect(() => {
+
     setTimeout(() =>
         setPending(false)
       , 3000)
