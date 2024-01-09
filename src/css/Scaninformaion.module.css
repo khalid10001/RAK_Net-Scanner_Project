@@ -135,6 +135,7 @@
 
 .containerInfo1 {
   display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -179,4 +180,14 @@
   background-color: #4caf50;
   font-weight: bolder;
   margin: 0;
+}
+@media (max-width: 767px) {
+  .containerInfo1 {
+    flex-direction: column;
+    width: 60%;
+  }
+  .containerBox2{
+    flex-direction: column;
+    width: 80%;
+  }
 }
