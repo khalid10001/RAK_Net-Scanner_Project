@@ -1,0 +1,121 @@
+.contact-main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem; /* Adjust as needed */
+    max-width: 85rem;
+    color: white;
+    margin: 0 auto;
+}
+
+.company-details {
+    flex: 1;
+    padding: 0 2rem 5rem 2rem; /* Adjust as needed */
+}
+
+.company-details h2 {
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+.company-details p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.contact-info {
+    margin-top: 2rem; /* Adjust as needed */
+}
+
+.contact-info li {
+    list-style: none;
+    margin-bottom: 1rem; /* Adjust as needed */
+    color: #ffffff;
+    position: relative;
+}
+
+.contact-info li::before {
+    content: '';
+    border-left: 0.1rem solid #38B6FF; /* Adjust thickness and color */
+    height: 100%;
+    position: absolute;
+    left: -0.5rem; /* Adjust as needed */
+    top: 0;
+}
+
+.contact-info li strong {
+    display: block;
+    color: #38B6FF;
+}
+
+.contact-info li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info li a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 2rem; /* Adjust as needed */
+    border-radius: 0.5rem; /* Adjust as needed */
+}
+
+.form-input {
+    width: 100%;
+    padding: 1rem; /* Adjust as needed */
+    margin-bottom: 1.5rem; /* Adjust as needed */
+    border: 0.1rem solid #ccc; /* Adjust thickness and color */
+    border-radius: 0.4rem; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.form-button {
+    background: linear-gradient(135deg, #0886D6, #001F56);
+    color: #fff;
+    padding: 1rem; /* Adjust as needed */
+    border: none;
+    border-radius: 0.4rem; /* Adjust as needed */
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-button:hover {
+    background: linear-gradient(135deg, #001F56, #0886D6);
+}
+@media screen and (min-width: 1200px) {
+    .company-details h2 {
+        font-size: 2rem;
+    }
+
+    .company-details p {
+        font-size: 1.2rem;
+    }
+
+    .contact-info li {
+        font-size: 1.2rem;
+    }
+
+    .contact-form .form-input {
+        font-size: 1rem;
+    }
+
+    .contact-form .form-button {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-main-container{
+        flex-direction: column;
+    }
+    .company-details,
+    .contact-form {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .contact-form .form-input {
+        margin-bottom: 1rem;
+    }
+}
